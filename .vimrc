@@ -11,4 +11,5 @@ set expandtab " Expand tabs to spaces
 set incsearch " Highlight dynamically as pattern is typed
 set ruler " Show the cursor position
 set number " Show line numbers
+set backspace=indent,eol,start
 highlight LineNr term=bold cterm=NONE ctermfg=White ctermbg=DarkGrey gui=NONE guifg=DarkGrey guibg=NONE
